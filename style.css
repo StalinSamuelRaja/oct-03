@@ -1,23 +1,36 @@
-*{
-    margin-top: 20px;
-    margin-left: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    
-    gap: 1rem;
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container {
     display: grid;
-    justify-content: center;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
-p{
-    font-size:large;
-    font-family:sans-serif;
-} 
+
+p {
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 @media (max-width: 768px) {
-    img {
-        max-width: 100%;
-        height: auto;
+    .container {
+        grid-template-columns: repeat(1, 1fr); /* Show one card per row on smaller screens */
     }
     
+    p {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
 }
