@@ -1,0 +1,23 @@
+/* *{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body{
+    
+    gap: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+p{
+    font-size:large;
+    font-family:sans-serif;
+} */
+
+/* @media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+} */
