@@ -12,9 +12,9 @@ body{
 p{
     font-size:large;
     font-family:sans-serif;
-} */
+} 
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     img {
         max-width: 100%;
         height: auto;
